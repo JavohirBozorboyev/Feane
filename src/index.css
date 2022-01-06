@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cormorant+Garamond:ital,wght@1,300;1,600&family=Libre+Baskerville:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  transition: all .5s ease;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container
+{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 425px)
+{
+  .container
+  {
+    width: 90%;
+  }
+
+}
+@media screen and (min-width: 426px) and (max-width: 768px)
+{
+  .container
+  {
+    width: 90%;
+  }
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+  .container
+  {
+    width: 90%;
+  }
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px)
+{
+  .container
+  {
+    width: 95%;
+  }
+
+}
