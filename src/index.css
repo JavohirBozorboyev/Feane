@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cormorant+Garamond:ital,wght@1,300;1,600&family=Libre+Baskerville:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cormorant+Garamond:ital,wght@1,300;1,600&family=Dancing+Script:wght@400;500;600;700&family=Libre+Baskerville:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cormorant+Garamond:ital,wght@1,300;1,600&family=Dancing+Script:wght@400;500;600;700&family=Libre+Baskerville:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 
 *{
+
   margin: 0;
   padding: 0;
   transition: all .5s ease;
+  text-decoration: none;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

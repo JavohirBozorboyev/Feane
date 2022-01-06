@@ -12,11 +12,11 @@ function Header() {
               <div className="container">
                   <div className="left">
                       <button className={click ? 'fa fa-times' : 'fa fa-bars'} onClick={handleClick}></button>
-                      <a href="#">Feane</a> 
+                      <a href="/">Feane</a> 
                   </div>
                   <div className={click ? 'center active': 'center'}>
                       <ul>
-                          <li><a href="#">Home</a></li>
+                          <li><a href="/">Home</a></li>
                           <li><a href="#">Menu</a></li>
                           <li><a href="#">About</a></li>
                           <li><a href="#">Book table</a></li>
