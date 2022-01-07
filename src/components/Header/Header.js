@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './header.css'
+import {Link} from 'react-router-dom'
 
 function Header() {
 
@@ -12,19 +13,19 @@ function Header() {
               <div className="container">
                   <div className="left">
                       <button className={click ? 'fa fa-times' : 'fa fa-bars'} onClick={handleClick}></button>
-                      <a href="/">Feane</a> 
+                       <Link to='/'>Feane</Link>
                   </div>
                   <div className={click ? 'center active': 'center'}>
                       <ul>
-                          <li><a href="/">Home</a></li>
-                          <li><a href="#">Menu</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Book table</a></li>
+                          <li><Link to='/' onClick={handleClick}>Home</Link></li>
+                          <li><Link to='/menu' onClick={handleClick}>Menu</Link></li>
+                          <li><Link to='/about' onClick={handleClick}>About</Link></li>
+                          <li><Link to='/book' onClick={handleClick}>Book Table</Link></li>
                       </ul>
                   </div>
                   <div className="right">
-                      <a href="#" className='fa fa-user'></a>
-                      <a href="#" className='fa fa-shopping-cart'></a>
+                      <Link to='#' className='fa fa-user'></Link>
+                      <Link to='#' className='fa fa-shopping-cart'></Link>
                   </div>
               </div>
           </nav>

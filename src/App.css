@@ -1,0 +1,58 @@
+
+
+.homeBox
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.homeBox .box h1
+{
+    color: gold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.homeBox .box p 
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #e9e9e9;
+    width: 60%;
+    font-size: 16px;
+}
+.homeBox .box button
+{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: none;
+    border: 3px double gold;
+    color: #fff;
+}
+.homeBox .box button:hover
+{
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 425px) 
+{
+    .homeBox .box p 
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) 
+{
+    .homeBox .box p 
+    {
+        width: 80%;
+    }
+}
