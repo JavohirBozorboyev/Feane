@@ -7,6 +7,8 @@ import About from './pages/about';
 import Book from './pages/book';
 import './App.css'
 import backImg from './img/background/hero-bg.jpg';
+import MenuBox from './containers/MenuBox/MenuBox';
+import CarouselList from './components/carouselBox/carouselList/CarouselList'
 
 
 export default function App() {
@@ -30,7 +32,6 @@ function Home (){
   return (
     <>
       <div className="homeBox" style={{backgroundImage: `url(${backImg})`}}>
-
         <div className="container">
           <div className="box">
             <h1>Fast Food Restaurant</h1>
@@ -40,8 +41,10 @@ function Home (){
             <button> Order now</button>
           </div>
         </div>
-
       </div>
+
+      {/* <MenuBox /> */}
+      <CarouselList />
     </>
   );
 }

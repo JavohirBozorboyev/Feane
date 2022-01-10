@@ -1,0 +1,15 @@
+
+.carousel
+{
+    display: flex;
+    padding: 30px 0;
+}
+
+.title
+{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}

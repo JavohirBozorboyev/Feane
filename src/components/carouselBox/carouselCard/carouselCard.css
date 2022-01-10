@@ -1,0 +1,53 @@
+
+.top 
+{
+    background: #222831;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.top p 
+{
+    color: #fff;
+    font-size: 16px;
+}
+.top h3 
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0;
+}
+.bottom 
+{
+    padding: 25px 0;
+    display: flex;
+}
+.bottom .user
+{
+    position: relative;
+}
+.bottom .user img
+{
+    border-radius: 50%;
+    width: 150px; height: 150px;
+    border: 5px solid gold;
+    position: relative;
+    z-index: 10;
+    
+}
+.bottom article
+{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: gold;
+    top: 0%;
+    margin-top: -8px;
+    left: 70px;
+    transform: rotate(45deg);
+    z-index: 0;
+
+}

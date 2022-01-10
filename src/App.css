@@ -44,6 +44,11 @@
 
 @media screen and (max-width: 425px) 
 {
+
+    .homeBox .box h1
+    {
+        font-size: 2rem;
+    }
     .homeBox .box p 
     {
         width: 100%;
@@ -51,6 +56,10 @@
 }
 @media screen and (min-width: 426px) and (max-width: 768px) 
 {
+    .homeBox .box h1
+    {
+        font-size: 3rem;
+    }
     .homeBox .box p 
     {
         width: 80%;
