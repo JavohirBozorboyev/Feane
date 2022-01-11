@@ -1,0 +1,102 @@
+
+.salelist 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.salebox
+{
+    width: 45%;
+    background: #222831;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+.salebox:hover .saleleft img
+{
+    transform: scale(1.1);
+}
+.salebox .saleleft
+{
+    border-radius: 50%;
+    border: 5px solid gold;
+    overflow: hidden;
+
+}
+.salebox .saleleft img 
+{
+    width: 160px;
+    height: 160px;
+}
+.salebox .saleright
+{
+    margin-left: 20px;
+}
+.salebox .saleright h3 
+{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7rem;
+}
+.salebox .saleright h1 
+{
+    color: #fff;
+    margin: 10px 0;
+    font-family: 'Dancing Script', cursive;
+
+}
+.salebox .saleright button 
+{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    background: gold;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.salebox .saleright button:hover 
+{
+    background: rgba(255, 225, 54, 0.712);
+}
+
+@media screen and (max-width: 550px)
+{
+    .salebox 
+    {
+        width: 100%;
+        flex-direction: column;
+    } 
+    .salebox .saleright
+    {
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (min-width: 551px) and (max-width: 650px)
+{
+    .salebox 
+    {
+        width: 90%;
+        
+    } 
+    .salebox .saleright
+    {
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (min-width: 651px) and (max-width: 800px)
+{
+    .salebox 
+    {
+        width: 80%;
+        
+    } 
+    
+    
+}

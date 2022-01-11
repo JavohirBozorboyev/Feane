@@ -9,6 +9,7 @@ import './App.css'
 import backImg from './img/background/hero-bg.jpg';
 import MenuBox from './containers/MenuBox/MenuBox';
 import CarouselList from './components/carouselBox/carouselList/CarouselList'
+import SaleList from './components/saleBox/SaleList';
 
 
 export default function App() {
@@ -43,8 +44,11 @@ function Home (){
         </div>
       </div>
 
-      {/* <MenuBox /> */}
-      <CarouselList />
+
+      <SaleList />
+      <MenuBox />
+      
+      {/* <CarouselList /> */}
     </>
   );
 }

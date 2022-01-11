@@ -1,10 +1,11 @@
 import React from 'react'
+import MenuBox from '../../containers/MenuBox/MenuBox'
 
 function index() {
     return (
         <div>
             
-            <h1>Menu page</h1>
+            <MenuBox />
         </div>
     )
 }

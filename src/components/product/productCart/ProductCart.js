@@ -4,15 +4,17 @@ import f2 from '../../../img/product/f2.png'
 
 
 
-function ProductCart() {
+function ProductCart({name, img}) {
+
+    console.log(name);
     return (
         <div className='cart'>
-            <div className="top">
-                <img src={f2} alt="" />
+            <div className="Carttop">
+                <img src={img} alt="" />
             </div>
-            <div className="bottom">
+            <div className="Cartbottom">
                 <div className="info">
-                    <h3>Delicious Burger</h3>
+                    <h3>{name}</h3>
                     <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
                 </div>
                 <div className="price">
