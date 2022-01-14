@@ -25,7 +25,7 @@ function Header() {
                   </div>
                   <div className="right">
                       <Link to='#' className='fa fa-user'></Link>
-                      <Link to='#' className='fa fa-shopping-cart'></Link>
+                      <Link to='/basket' className='fa fa-shopping-cart'></Link>
                   </div>
               </div>
           </nav>

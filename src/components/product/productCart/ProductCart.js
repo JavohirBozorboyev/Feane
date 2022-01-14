@@ -4,9 +4,9 @@ import f2 from '../../../img/product/f2.png'
 
 
 
-function ProductCart({name, img}) {
+function ProductCart({name, img, addToCart, products}) {
+    
 
-    console.log(name);
     return (
         <div className='cart'>
             <div className="Carttop">
@@ -19,7 +19,7 @@ function ProductCart({name, img}) {
                 </div>
                 <div className="price">
                     <p>$15</p>
-                    <button className='fa fa-shopping-cart'></button>
+                    <button className='fa fa-shopping-cart'>{addToCart}</button>
                 </div>
             </div>
         </div>

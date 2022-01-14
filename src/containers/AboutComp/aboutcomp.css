@@ -2,4 +2,90 @@
 .ab-comp 
 {
     background: #222831;
+    padding: 100px 0;
+}
+.ab-comp .container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ab-comp .ab-left
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.ab-comp .ab-left img 
+{
+    width: 450px;
+
+}
+.ab-comp .ab-right 
+{
+    width: 40%;
+}
+.ab-comp .ab-right h3 
+{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+.ab-comp .ab-right  p
+{
+    color: #fff;
+    margin: 15px 0;
+}
+.ab-comp .ab-right button 
+{
+    background: gold;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 425px)
+{
+    .ab-comp .container 
+    {
+        flex-direction: column;
+    }
+    .ab-comp .ab-left img 
+    {
+        width: 100%;
+    }
+    .ab-comp .ab-left
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .ab-comp .ab-right
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px)
+{
+    .ab-comp .container 
+    {
+        flex-direction: column;
+    }
+    .ab-comp .ab-left img 
+    {
+        width: 70%;
+    }
+    .ab-comp .ab-left
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .ab-comp .ab-right
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
 }

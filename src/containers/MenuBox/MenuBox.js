@@ -18,11 +18,6 @@ function MenuBox() {
         
     }, [])
 
-   
-    
-    
-    
-    
     
     return (
         <div className='container'>

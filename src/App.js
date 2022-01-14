@@ -5,11 +5,13 @@ import Header from './components/header/Header';
 import Menu from './pages/menu';
 import About from './pages/about';
 import Book from './pages/book';
+import Basket from './pages/basket';
 import './App.css'
 import backImg from './img/background/hero-bg.jpg';
 import MenuBox from './containers/MenuBox/MenuBox';
 import CarouselList from './components/carouselBox/carouselList/CarouselList'
 import SaleList from './components/saleBox/SaleList';
+import AboutComp from './containers/AboutComp/AboutComp';
 
 
 export default function App() {
@@ -22,6 +24,7 @@ export default function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<About />} />
         <Route path="/book" element={<Book />} />
+        <Route path="/basket" element={<Basket />} />
       </Routes>
       <Footer />
 
@@ -47,7 +50,7 @@ function Home (){
 
       <SaleList />
       <MenuBox />
-      
+      <AboutComp />
       {/* <CarouselList /> */}
     </>
   );
